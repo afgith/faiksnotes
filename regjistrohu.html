@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Webpage Design</title>
+    <link rel="stylesheet" href="regjistrohu.css">
+</head>
+<body>
+
+    <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <h2 class="logo">Faiks Notes</h2>
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">BALLINA</a></li>
+                    <li><a href="msimet.html">MATERIALE</a></li>
+                    <li><a href="regjistrohu.html">KONTAKT</a></li>
+                    <li><a href="perne.html">PËR&nbsp;NE</a></li>
+                </ul>
+            </div>
+
+            <div class="search">
+                <input class="srch" type="search" name="" placeholder="Type To text">
+                <a href="#"> <button class="btn">Search</button></a>
+            </div>
+
+        </div> 
+        <div class="tekst">
+            <h1>Perse te regjistrohem?</h1>
+            <p>This is a mistake. Here, we’ll refer to some time-honored typesetting conventions, with an emphasis on readability, and offer guidance on adapting them effectively for devices and screens. We’ll see that the ability to embed fonts with @font-face is not by itself a solution to all of our typographic challenges.</p>
+        </div>
+        <div class="form">
+            <form onsubmit="sendEmail(); reset(); return false;">
+            <h2>Na kontaktoni</h2>
+            <input type="text" name="emri" placeholder="Emri" required>
+            <input type="email" name="email" placeholder="Vendos Emailin Ketu" required>
+            <textarea name="" id="message"  rows="5">Si munde tju ndihmojme</textarea>
+            <button  class="btnn" type="submit">Dergo</button>
+
+        
+            </form>
+
+        </div>
+            </div>
+        </div>
+        <div>
+            <footer class="clear">
+                <div class="footer">
+                    <p>
+                        Ndertuar nga Faik Azizi Copyright &copy;  2023
+                    </p>
+                </div>
+            </footer>
+        </div>
+</div>
+        
+    </div>
+
+    <script src=" https://smtpjs.com/v3/smtp.js"></script>
+<script>
+    Email.send({
+        Host : "smtp.gmail.com",
+        Username : "**************",
+        Password : "*********",
+        To : '**********@*******',
+        From : document.getElementById("email").value,
+        Subject : "New Contact Form enquiry",
+        Body : "<br> emri" + document.getElementById("email").value
+        + "<br> email" + document.getElementById("email").value,
+    }).then(
+      message => alert("Pororsia u dergua me sukses")
+    );
+</script>
+</body>
+</html>

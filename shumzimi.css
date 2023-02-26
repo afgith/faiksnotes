@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background: white;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    color: turquoise;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+    margin-top: 5px
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: turquoise;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.2s ease-in-out;
+    border: none;
+    border-color: aquamarine;
+    border-radius: 10px;
+    border-width: auto;
+    
+}
+
+ul li a:hover{
+    color: black;
+
+}
+
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid turquoise;
+    margin-top: 13px;
+    color: white;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background: turquoise;
+    border: 2px solid turquoise;
+    margin-top: 13px;
+    color: black;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: 1s ease;
+    cursor: pointer;
+}
+.btn:hover{
+    color: white;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.srch:focus{
+    outline: none;
+}
+.titulli h1{
+    
+    margin-top: 180px;
+    margin-left: 150px;
+    padding: 40px;
+    margin-left: 50px;
+    font-size: 35px;
+    color: black;
+
+}
+.titulli p{
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    right: 50px;
+    font-size: 25px;
+
+}
+.molla{
+     
+    margin-top: 25px;
+    margin-left: 200px;
+ 
+}
+.teksti2{
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    right: 50px;
+    font-size: 25px;
+}
+.teksti2 h4{
+
+    margin-left: 400px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+.tabelaa{
+
+    margin-top: 50px;
+    margin-left: 150px;
+}
+.titvid{
+     
+    margin-top: 65px;
+    margin-left: 100px
+    
+    
+}
+.titvid h2{
+
+    font-size: 30px;
+}
+.video{
+    margin-top: 100px;
+    margin-left: 300px;
+}
+.fund{
+
+    margin-left: 100px;
+    margin-top: 100px;
+    font-size: 35px;
+}
+.footer{
+    background: linear-gradient(white,turquoise);
+    background: -webkit-linear-gradient(white,turquoise);
+    background: -o-linear-gradient(white, turquoise);
+    background: -moz-linear-gradient(white,turquoise);
+    height: 60px;
+    padding: 10px 30px;
+    margin-top: 200px;
+}
+.foto12{
+
+    height: 150px;
+}

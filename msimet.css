@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(aurora.webp);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    color: turquoise;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+    margin-top: 5px
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: turquoise;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.2s ease-in-out;
+    border: none;
+    border-color: aquamarine;
+    border-radius: 10px;
+    border-width: auto;
+    
+}
+
+ul li a:hover{
+    color: white;
+
+}
+
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid turquoise;
+    margin-top: 13px;
+    color: white;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background: turquoise;
+    border: 2px solid turquoise;
+    margin-top: 13px;
+    color: black;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: 1s ease;
+    cursor: pointer;
+}
+.btn:hover{
+    color: white;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.srch:focus{
+    outline: none;
+}
+
+
+.sidebar{
+    margin: 200px auto;
+    height: 500px;
+    width: 450px;
+    border: 1px solid turquoise;
+    border-radius: 20px;
+    padding: 10px 30px;
+
+}
+.sidebar h3{
+    color: turquoise;
+    font-size: 30px;
+}
+.sidebar ol{
+    padding-top: 8px;
+   
+}
+#leftsidebar ol li{
+    margin-top: 45px;
+    padding: 4px 0 4px 10px;
+}
+#rightsidebar ol li{
+    margin-top: 45px;
+    padding: 20px 0 20px 40px;
+}
+.sidebar ol li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    transition: font-size 0.3s ease;
+    -webkit-transition: font-size 0.3s ease;
+    -moz-transition: fonr-size 0.3s ease;
+    -o-transition: font-size 0.3s ease;
+    -ms-transition: font-size 0.3s ease;
+}
+.sidebar ol li a:hover {
+    text-decoration: none;
+    font-size: 23px;
+    font-weight: bold;
+}
+#leftsidebar{
+    margin-left: 100px;
+    float: left;
+    
+}
+#rightsidebar
+{
+    margin-right: 100px;
+    float: right;
+}
+.footer{
+    background: linear-gradient(white,turquoise);
+    background: -webkit-linear-gradient(white,turquoise);
+    background: -o-linear-gradient(white, turquoise);
+    background: -moz-linear-gradient(white,turquoise);
+    height: 60px;
+    padding: 10px 30px;
+    margin-top: 240px;
+    
+   
+}
+.libra {
+
+    padding: 100px;
+
+}
+.libra h4{
+
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.libra ol li a{
+    
+    line-height: 50px;
+    margin: 10px 0;
+    font-size: 25px;
+    padding: 4px 0 4px 10px;
+    
+}
+.shtyp button{
+
+    width: 300px;
+    height: 35px;
+    background-color: transparent;
+    border: white;
+    margin-left: 450px;
+    font-size: 25px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+
+}
+.shtyp .button a{
+    text-decoration: underline;
+    text-align: black;
+    transition: .3s ease;
+}
+
+.shtyp button:hover{
+
+    transition: font-size 0.3s ease;
+    -webkit-transition: font-size 0.3s ease;
+    -moz-transition: fonr-size 0.3s ease;
+    -o-transition: font-size 0.3s ease;
+    -ms-transition: font-size 0.3s ease;
+
+}
